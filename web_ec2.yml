@@ -50,6 +50,7 @@
       copy:
         src: index.html
         dest: /var/www/html
+        mode: '0644'
 
     - name: nginx is started
       service:
